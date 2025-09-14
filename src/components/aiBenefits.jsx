@@ -101,21 +101,23 @@ const benefits = [
 function AiBenefits() {
   return (
     <section 
-    id='benefits'
     className='app-container py-16 bg-gradient-to-br from-dark to-gray-900 rounded-3xl text-white'
+    id='benefits'
     >
       <div className="text-center mb-12">
         <span className="section-subheader">AI Benefits</span>
         <h2 className="section-header">
           How AI is {" "}
-          <span className="gradient-text">Transforming Our World</span>
+          <span className="gradient-text">
+            Transforming Our World
+          </span>
         </h2>
-        <p className="section-description text-gray-300">
+        <p className="section-description text gray-300">
           Discover the positive impact of AI across various sectors and industries.
         </p>
       </div>
 
-      <div className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {benefits.map((benefit, i) => (
           <div key={i} className="benefit-card">
             <div className={`benefit-card-icon ${colorClasses[benefit.color]}`}>
@@ -126,7 +128,6 @@ function AiBenefits() {
           </div>
         ))}
       </div>
-
     </section>
   )
 }
