@@ -12,7 +12,7 @@ function Navbar() {
   const [mobileMenueOpen, setMobileMenueOpen] = useState(false);
 
   return (
-    <nav className='bg-white/80 backrob-blur-md shadow-sm fixed w-full z-50'>
+    <nav className='bg-white/80 backdrop-blur-md shadow-sm fixed w-full z-50'>
       <div className='app-container flex justify-between items-center h-16'>
         {/* logo */}
         <span className="gradient-text text-2xl font-bold">AI Revolution</span>
