@@ -112,7 +112,7 @@ function AiBenefits() {
             Transforming Our World
           </span>
         </h2>
-        <p className="section-description text gray-300">
+        <p className="section-description text-gray-300">
           Discover the positive impact of AI across various sectors and industries.
         </p>
       </div>
